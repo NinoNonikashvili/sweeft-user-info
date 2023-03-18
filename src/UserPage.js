@@ -8,9 +8,11 @@ export default function UserPage() {
   const [userId, setUserId] = useState(1);
   const [pageNum, setPageNum] = useState(1);
   const [visitedUsers, setVisitedUsers] = useState([]);
-  // const params = useParams();
+  const params = useParams();
+
+  console.log(useParams.id);
   useEffect(() => {
-    setUserId(useParams.id);
+    setUserId(params.id);
   }, []);
   const { userData, userAddress, userCompany, userError } =
     useFetchUserInfo(userId);
@@ -33,6 +35,7 @@ export default function UserPage() {
     },
     [hasMore, loading]
   );
+  console.log(userId, pageNum);
 
   return (
     <div className="userPageWrapper">

@@ -141,12 +141,16 @@ a {
 }
 @media screen and (min-width: 1000px) {
   .userInfo {
-    grid-template-columns: minmax(200px, 400px) minmax(450px, 800px) minmax(
+    grid-template-columns: minmax(200px, 400px) minmax(450px, 550px) minmax(
         200px,
         300px
       );
   }
   .userAddress {
     grid-column: 3 / 4;
+  }
+  .userData {
+    border: 1px solid grey;
+    border-radius: 10px;
   }
 }
