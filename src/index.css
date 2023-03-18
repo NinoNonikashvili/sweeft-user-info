@@ -1,13 +1,152 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #3f3f46;
+}
+
+/* font */
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Mukta:wght@300&display=swap");
+
+.cardsWrapper {
+  padding-top: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px grey;
+  color: #3f3f46;
+}
+
+.card > h3 > span {
+  margin-right: 6px;
+  font-family: "Mukta";
+  font-size: 24px;
+}
+.card > h3 {
+  margin: 20px 0 10px;
+}
+.card > h4 {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.card > .img {
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.userPageWrapper {
+  padding: 60px 40px;
+}
+
+.userInfo {
+  display: grid;
+  width: 100%;
+  gap: 2rem;
+  align-items: top;
+}
+
+.userImg {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.userImgWrapper {
+  /* max-width: 250px; */
+}
+.userData,
+.userAddress {
+  padding: 15px 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+.userData > h2,
+.userAddress > h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.userData > h3,
+.userAddress > h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.userData > p,
+.userAddress > p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 2px 0;
+}
+.userData > p > span,
+.userAddress > p > span {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 2px 5px 0 0;
+}
+.userData > h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+.userAddress > h3 {
+  margin-bottom: 10px;
+}
+
+.searchWrapper {
+  padding: 30px 0;
+}
+.searchWrapper > h2 {
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 600px) {
+  .userInfo {
+    grid-template-columns: minmax(300px, 200px) minmax(300px, 550px);
+  }
+  .userAddress {
+    grid-column: 1 / 3;
+  }
+  .userData {
+    border: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .userInfo {
+    grid-template-columns: minmax(200px, 400px) minmax(450px, 800px) minmax(
+        200px,
+        300px
+      );
+  }
+  .userAddress {
+    grid-column: 3 / 4;
+  }
 }

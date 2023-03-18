@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { useState, useRef, useCallback } from "react";
 import useFetchData from "./useFetchData";
+import { Link } from "react-router-dom";
 
 //create custom hook - useFetchData
 // '{page}/{size}' - for all user
@@ -37,6 +38,7 @@ function App() {
 
   return (
     <>
+      <Link to="/userPage">click here</Link>
       {data.map((user, index) => {
         if (index + 1 === data.length) {
           return (
