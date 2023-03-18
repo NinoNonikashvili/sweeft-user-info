@@ -4,16 +4,8 @@ import { useState, useRef, useCallback } from "react";
 import useFetchData from "./useFetchData";
 import { Link } from "react-router-dom";
 
-//create custom hook - useFetchData
-// '{page}/{size}' - for all user
-// '{userId}/friends/{page}/{size}'
-// '{userId}'
-
 function App() {
   const [pageNum, setPageNum] = useState(1);
-  // const [data, setData] = useState([]);
-  // const [hasMore, setHasMore] = useState(false);
-  // const [loading, setLoading] = useState(false);
   const observer = useRef();
   const { loading, data, hasMore } = useFetchData(pageNum);
 
