@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/NinoNonikashvili/swift-user-info/static/css/main.14234877.css",
+    "main.js": "/NinoNonikashvili/swift-user-info/static/js/main.86afa8da.js",
+    "static/media/logo.svg": "/NinoNonikashvili/swift-user-info/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/NinoNonikashvili/swift-user-info/index.html",
+    "main.14234877.css.map": "/NinoNonikashvili/swift-user-info/static/css/main.14234877.css.map",
+    "main.86afa8da.js.map": "/NinoNonikashvili/swift-user-info/static/js/main.86afa8da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14234877.css",
+    "static/js/main.86afa8da.js"
+  ]
+}
