@@ -2,7 +2,7 @@
   "name": "sweeft-user-info",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/NinoNonikashvili/swift-user-info",
+  "homepage": "https://github.com/NinoNonikashvili/sweeft-user-info",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
