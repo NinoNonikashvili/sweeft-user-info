@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/NinoNonikashvili/sweeft-user-info/static/css/main.19f4e64b.css",
-    "main.js": "/NinoNonikashvili/sweeft-user-info/static/js/main.35a4e573.js",
-    "static/media/logo.svg": "/NinoNonikashvili/sweeft-user-info/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/NinoNonikashvili/sweeft-user-info/index.html",
-    "main.19f4e64b.css.map": "/NinoNonikashvili/sweeft-user-info/static/css/main.19f4e64b.css.map",
-    "main.35a4e573.js.map": "/NinoNonikashvili/sweeft-user-info/static/js/main.35a4e573.js.map"
+    "main.css": "/github.io/sweeft-user-info/static/css/main.19f4e64b.css",
+    "main.js": "/github.io/sweeft-user-info/static/js/main.3c6980ec.js",
+    "static/media/logo.svg": "/github.io/sweeft-user-info/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/github.io/sweeft-user-info/index.html",
+    "main.19f4e64b.css.map": "/github.io/sweeft-user-info/static/css/main.19f4e64b.css.map",
+    "main.3c6980ec.js.map": "/github.io/sweeft-user-info/static/js/main.3c6980ec.js.map"
   },
   "entrypoints": [
     "static/css/main.19f4e64b.css",
-    "static/js/main.35a4e573.js"
+    "static/js/main.3c6980ec.js"
   ]
 }
