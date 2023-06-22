@@ -7,8 +7,8 @@ export default function useFetchData(pageNum, friends = false, userId = 0) {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const url = friends
-    ? `http://sweeftdigital-intern.eu-central-1.elasticbeanstalk.com/user/${userId}/friends/${pageNum}/20`
-    : `http://sweeftdigital-intern.eu-central-1.elasticbeanstalk.com/user/${pageNum}/20`;
+    ? `https://sweeftdigital-intern.eu-central-1.elasticbeanstalk.com/user/${userId}/friends/${pageNum}/20`
+    : `https://sweeftdigital-intern.eu-central-1.elasticbeanstalk.com/user/${pageNum}/20`;
 
   //fetch data in useEffect
   useEffect(() => {

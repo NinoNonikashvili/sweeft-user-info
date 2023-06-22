@@ -12,7 +12,7 @@ export default function useFetchUserInfo(userId) {
     setError(false);
     axios({
       method: "GET",
-      url: `http://sweeftdigital-intern.eu-central-1.elasticbeanstalk.com/user/${userId}`,
+      url: `https://sweeftdigital-intern.eu-central-1.elasticbeanstalk.com/user/${userId}`,
     })
       .then((res) => {
         console.log("user info " + res);
