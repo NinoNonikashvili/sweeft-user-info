@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/sweeft-user-info/static/css/main.19f4e64b.css",
-    "main.js": "/sweeft-user-info/static/js/main.2a28c735.js",
+    "main.js": "/sweeft-user-info/static/js/main.5718ca9a.js",
     "static/media/logo.svg": "/sweeft-user-info/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/sweeft-user-info/index.html",
     "main.19f4e64b.css.map": "/sweeft-user-info/static/css/main.19f4e64b.css.map",
-    "main.2a28c735.js.map": "/sweeft-user-info/static/js/main.2a28c735.js.map"
+    "main.5718ca9a.js.map": "/sweeft-user-info/static/js/main.5718ca9a.js.map"
   },
   "entrypoints": [
     "static/css/main.19f4e64b.css",
-    "static/js/main.2a28c735.js"
+    "static/js/main.5718ca9a.js"
   ]
 }
